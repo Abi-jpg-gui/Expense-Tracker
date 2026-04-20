@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Expense Tracker - Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- HEADER SECTION -->
+        <div class="header">
+            <h1>💰 My Expense Tracker</h1>
+            <p>Track your monthly spending</p>
+        </div>
+
+        <!-- SUMMARY CARDS SECTION -->
+        <div class="summary-cards">
+            <div class="card">
+                <div class="card-icon">💸</div>
+                <div class="card-title">Total Spent</div>
+                <div class="card-value">$2,450.50</div>
+                <div class="card-subtitle">This month so far</div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📊</div>
+                <div class="card-title">Highest Category</div>
+                <div class="card-value">Food</div>
+                <div class="card-subtitle">$650.00 spent</div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">📅</div>
+                <div class="card-title">Current Month</div>
+                <div class="card-value">April 2026</div>
+                <div class="card-subtitle">29 days remaining</div>
+            </div>
+        </div>
+
+        <!-- CATEGORIES SECTION -->
+        <h2 class="section-title">📁 Expense Categories</h2>
+        <div class="categories-container">
+            <div class="category-item">
+                <div class="category-name">
+                    <div class="category-icon category-food">🍔</div>
+                    <span>Food & Dining</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="category-progress">
+                        <div class="category-progress-bar" style="width: 70%;"></div>
+                    </div>
+                    <div class="category-amount">$650.00</div>
+                </div>
+            </div>
+
+            <div class="category-item">
+                <div class="category-name">
+                    <div class="category-icon category-transport">🚗</div>
+                    <span>Transport</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="category-progress">
+                        <div class="category-progress-bar" style="width: 55%;"></div>
+                    </div>
+                    <div class="category-amount">$425.75</div>
+                </div>
+            </div>
+
+            <div class="category-item">
+                <div class="category-name">
+                    <div class="category-icon category-shopping">🛍️</div>
+                    <span>Shopping</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="category-progress">
+                        <div class="category-progress-bar" style="width: 45%;"></div>
+                    </div>
+                    <div class="category-amount">$580.25</div>
+                </div>
+            </div>
+
+            <div class="category-item">
+                <div class="category-name">
+                    <div class="category-icon category-entertainment">🎬</div>
+                    <span>Entertainment</span>
+                </div>
+                <div style="display: flex; align-items: center; gap: 15px;">
+                    <div class="category-progress">
+                        <div class="category-progress-bar" style="width: 50%;"></div>
+                    </div>
+                    <div class="category-amount">$194.50</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- TRANSACTIONS SECTION -->
+        <h2 class="section-title">📝 Recent Transactions</h2>
+        <div class="transactions-container">
+            <div class="transaction-card">
+                <div class="transaction-details">
+                    <div class="transaction-icon" style="background: #fef3c7;">🍕</div>
+                    <div class="transaction-info">
+                        <div class="transaction-title">Dinner at Restaurant</div>
+                        <div class="transaction-date">April 18, 2026</div>
+                    </div>
+                </div>
+                <div class="transaction-amount">-$45.50</div>
+            </div>
+
+            <div class="transaction-card">
+                <div class="transaction-details">
+                    <div class="transaction-icon" style="background: #dbeafe;">⛽</div>
+                    <div class="transaction-info">
+                        <div class="transaction-title">Gas Station</div>
+                        <div class="transaction-date">April 17, 2026</div>
+                    </div>
+                </div>
+                <div class="transaction-amount">-$65.00</div>
+            </div>
+
+            <div class="transaction-card">
+                <div class="transaction-details">
+                    <div class="transaction-icon" style="background: #f5d4ff;">👕</div>
+                    <div class="transaction-info">
+                        <div class="transaction-title">Clothing Purchase</div>
+                        <div class="transaction-date">April 16, 2026</div>
+                    </div>
+                </div>
+                <div class="transaction-amount">-$125.00</div>
+            </div>
+
+            <div class="transaction-card">
+                <div class="transaction-details">
+                    <div class="transaction-icon" style="background: #dcfce7;">🎫</div>
+                    <div class="transaction-info">
+                        <div class="transaction-title">Movie Tickets</div>
+                        <div class="transaction-date">April 15, 2026</div>
+                    </div>
+                </div>
+                <div class="transaction-amount">-$32.00</div>
+            </div>
+
+            <div class="transaction-card">
+                <div class="transaction-details">
+                    <div class="transaction-icon" style="background: #fef3c7;">🥗</div>
+                    <div class="transaction-info">
+                        <div class="transaction-title">Grocery Shopping</div>
+                        <div class="transaction-date">April 14, 2026</div>
+                    </div>
+                </div>
+                <div class="transaction-amount">-$87.50</div>
+            </div>
+
+            <div class="transaction-card">
+                <div class="transaction-details">
+                    <div class="transaction-icon" style="background: #dbeafe;">🚕</div>
+                    <div class="transaction-info">
+                        <div class="transaction-title">Taxi Ride</div>
+                        <div class="transaction-date">April 13, 2026</div>
+                    </div>
+                </div>
+                <div class="transaction-amount">-$22.75</div>
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <div class="footer">
+            <p>&copy; 2026 My Expense Tracker | Personal Finance Dashboard</p>
+        </div>
+    </div>
+</body>
+</html>
